@@ -7,8 +7,8 @@ public class Main {
 Points firstOne= new Points();
 firstOne.setX(3);	
 firstOne.setY(4);
-firstOne.translate();
-firstOne.scale();
+firstOne.translate(1,3);
+firstOne.scale(2);
 
 	System.out.println("x= "+firstOne.getX()+" y= "+firstOne.getY());
 	}

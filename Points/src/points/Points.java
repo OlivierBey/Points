@@ -24,14 +24,14 @@ public class Points {
 		this.y=y;
 
 	}
-    public void translate() {
-	x+=1;
-	y+=3;
+    public void translate(double bijX, double bijY) {
+	x+=bijX;
+	y+=bijY;
     }
 
-    public void scale() {
-    	x=x/2;
-    	y=y/2;
+    public void scale(double deelDoor) {
+    	x=x/deelDoor;
+    	y=y/deelDoor;
     }
     
     
